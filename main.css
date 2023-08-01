@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500&family=Dosis:wght@400;500;700;800&display=swap');
+
+/* font-family: 'Bitter', serif;
+font-family: 'Dosis', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+label,
+form button {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Bitter', serif;
+}
+
+.container {
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #330F0A;
+    /* # 330F0A */
+    color: #DD1021;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #FFC300;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bigImage {
+    margin-right: 32px;
+    width: 640px;
+    height: 480px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px #330F0A;
+}
+
+.TraditionalFood {
+    display: flex;
+    justify-content: space-around;
+}
+
+.TraditionalFood li {
+    display: inline;
+}
+
+.TraditionalFood img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #330F0A;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+
+}
+
+.socialLinks img {
+    height: 24px;
+}
+
+.socialLinks li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.socialLinks li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contactMethods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 90px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #330F0A;
+    color: #FFC300;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+form button:hover {
+    transition-duration: 500ms;
+    background-color: #5e261e;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #5e261e;
+}
+
+label {
+    display: block;
+    font-size: large;
+}
+
+select {
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+footer {
+    background-color: #330F0A;
+    color: #FFC300;
+    padding: 16px 0;
+    text-align: center;
+}

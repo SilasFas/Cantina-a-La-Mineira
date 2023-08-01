@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Cantina a La Mineira</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Sobre o restaurante</a>
+                    </li>
+                    <li>
+                        <a href="#food">Veja nossos pratos</a>
+                    </li>
+                    <li>
+                        <a href="#order">Faça seu pedido</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <img class="bigImage" src="images/image1.jpg" alt="Comida mineira">
+                <div>
+                    <h2 id="about">Sobre o restaurante</h2>
+                    <p>
+                        O Restaurante Cantina a La mineira é um local especializado em comida mineira, que oferece uma
+                        experiência autêntica e apaixonante da gastronomia da região. Com chefs dedicados e pratos
+                        cuidadosamente preparados, o cardápio inclui quitutes típicos, como tutu à mineira, feijoada,
+                        frango
+                        com quiabo, angu com costelinha e carne de porco à pururuca.
+                    </p>
+
+                    <p>
+                        As sobremesas são igualmente
+                        deliciosas, com destaque para o pudim de leite, goiabada cascão e doce de leite. O restaurante
+                        proporciona uma verdadeira viagem culinária, onde a hospitalidade mineira se mistura à tradição
+                        e ao
+                        sabor da rica culinária de Minas Gerais.
+                    </p>
+                    <h2 id="food">Veja nossos pratos</h2>
+                    <ul class="TraditionalFood">
+                        <li><img src="images/comidaTradicional (1).jpeg" alt="Nintendo"></li>
+                        <li><img src="images/comidaTradicional (2).jpeg" alt="Xbox"></li>
+                        <li><img src="images/comidaTradicional (4).jpg" alt="Playstation"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2 id="order">Faça seu pedido</h2>
+                <div class="contactMethods">
+                    <div>
+                        <h3>Preencha as informações</h3>
+                        <form>
+                            <input type="text" name="text" id="text" placeholder="Seu nome" required>
+                            <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
+                            <input type="tel" name="tel" id="tel" placeholder="Seu telefone (opcional)">
+                            <label for="FoodType">Escolha o seu prato:</label>
+                            <select name="FoodType" id="FoodType" required>
+                                <option value="" selected>Clique aqui para escolher</option>
+                                <option value="Tutu-à-mineira">Tutu à mineira</option>
+                                <option value="Feijoada">Feijoada</option>
+                                <option value="Frango-com-quiabo">Frango com quiabo</option>
+                                <option value="Angu-com-costelinha">Angu com costelinha</option>
+                                <option value="Carne-de-porco-à-pururuca">Carne de porco à pururuca</option>
+                                <option value="Pudim-de-leite">Pudim de leite</option>
+                                <option value="Goiabada-cascão">Goiabada cascão</option>
+                                <option value="Doce-de-leite">Doce de leite</option>
+                            </select>
+                            <textarea placeholder="Digite seu endereço"></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div>
+                        <h3>Nos siga nas redes sociais</h3>
+                        <ul class="socialLinks">
+                            <li>
+                                <a href="#" title="Siga-nos no instagram">
+                                    <img src="images/instagram.png" alt="Logo do instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-nos no Facebook">
+                                    <img src="images/facebook.png" alt="Logo do facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Visite nosso canal no YouTube">
+                                    <img src="images/youtube.png" alt="Logo do YouTube">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Venha até nós</h3>
+                        <p>Mauá Plaza Shopping</p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1827.1460807529431!2d-46.46171509189408!3d-23.665507696157857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1690885817236!5m2!1sen!2sbr"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>
+                &copy;Cantina a La Mineira - Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
